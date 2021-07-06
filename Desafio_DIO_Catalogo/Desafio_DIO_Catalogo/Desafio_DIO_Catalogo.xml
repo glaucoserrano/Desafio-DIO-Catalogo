@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desafio_DIO_Catalogo</name>
+    </assembly>
+    <members>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Busca todos jogos de forma paginada
+            </summary>
+            <param name="pagina"></param>
+            <param name="quantidade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.Obter(System.Guid)">
+            <summary>
+            Busca os jogos pelo ID.
+            </summary>
+            <param name="idJogo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.InserirJogo(Desafio_DIO_Catalogo.InputModel.JogoInputModel)">
+            <summary>
+             Insere um novo jogo
+            </summary>
+            <param name="jogoInputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.AtualizarJogo(System.Guid,Desafio_DIO_Catalogo.InputModel.JogoInputModel)">
+            <summary>
+            Altera os dados do jogo, que foi passado o ID
+            </summary>
+            <param name="idJogo"></param>
+            <param name="jogoInputModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.AtualizarJogo(System.Guid,System.Double)">
+            <summary>
+            Altera o preço do jogo, que foi passado pelo ID
+            </summary>
+            <param name="idJogo"></param>
+            <param name="preco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Desafio_DIO_Catalogo.Controllers.V1.JogosController.ApagarJogo(System.Guid)">
+            <summary>
+            Apaga os jogos com o ID passado
+            </summary>
+            <param name="idJogo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
